@@ -1,0 +1,9 @@
+@mixin action-icon($width, $height,$backgroun-position,$hover-position) {
+    width: $width;
+    height: $height;
+    background-position: $backgroun-position;
+    
+    &:hover {
+        background-position: $hover-position;
+    }
+}

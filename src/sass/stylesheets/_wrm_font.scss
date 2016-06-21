@@ -1,0 +1,15 @@
+/**
+ * Defines the css for the font family for roboto
+ *
+ * @TODO : convert this into a mixin
+ */
+
+@import "mixins/font";
+
+@at-root {
+    // import the fonts that are used
+    @include font($robot-regular-font-name,$robot-regular-font-folder,$robot-regular-font-file-name);
+    @include font($robot-condensed-font-name,$robot-condensed-font-folder,$robot-condensed-font-file-name);
+    @include font($robot-light-font-name,$robot-light-font-folder,$robot-light-font-file-name);
+    @include font($robot-italic-font-name,$robot-italic-font-folder,$robot-italic-font-file-name);
+}

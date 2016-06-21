@@ -1,0 +1,47 @@
+/**
+ * Add the custom sass that is needed for this project
+ */
+
+body.infobip {
+    font-family: 'Oswald', sans-serif !important;
+    .panel-default{
+        border: none;
+        min-height: 200px;
+        color: #fff;
+        margin: 10px;
+    }
+    .panel-heading {
+        background: transparent;
+        border: none;
+        color:#fff;
+    }
+    .panel-body{
+        padding: 5px 15px;
+        width: 320px;
+        p {
+            text-align: justify;
+        }
+    }
+    .glyphicon{
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+    .col-xs-12, .col-md-6, .col-lg-3{
+        padding:0px;
+    }
+    ul.bt-pills {
+        position: absolute;
+        top:60px;
+        left:60px;
+        li {
+          list-style: none;  
+        }
+        button {
+            font-size: 11px;
+            color: #000;
+            margin: 2px;
+            width: 100px;
+            border-radius: 2px;
+        }
+    }
+}

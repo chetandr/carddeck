@@ -1,0 +1,33 @@
+{
+  "name": "wrm-components",
+  "description": "Source code for WRM Tech Refresh",
+  "main": "App.js",
+  "authors": [
+    "Persistent Systems Ltd"
+  ],
+  "license": "TBD",
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.6"
+  }
+}

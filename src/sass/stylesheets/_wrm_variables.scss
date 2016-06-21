@@ -1,0 +1,78 @@
+// Variables to be used in our application
+
+// Path to the sprites,images
+$image-path:                                '/build/images/';
+$sprite-path:                               '/build/images/icons.png';
+$loader-path:                               '/build/images/loader_icon.png';
+$bg-image:                                  '/build/images/login_bg_greyscale.jpg';
+// font folder to be used is marker by the name of the font to be used
+
+// Roboto Regular
+$robot-regular-font-folder :                'roboto';
+$robot-regular-font-file-name:              'Roboto-Regular-webfont';
+$robot-regular-font-name :                  'Roboto Regular';
+
+// Roboto Condensed
+$robot-condensed-font-file-name:              'Roboto-Condensed-webfont';
+$robot-condensed-font-folder:                 'roboto';
+$robot-condensed-font-name :                  'Roboto Condensed';
+
+// Roboto Light
+$robot-light-font-file-name:                  'Roboto-Light-webfont';
+$robot-light-font-folder:                     'roboto';
+$robot-light-font-name:                       'Roboto Light';
+
+// Roboto Italics
+$robot-italic-font-file-name:                  'Roboto-Italic-webfont';
+$robot-italic-font-folder:                     'roboto';
+$robot-italic-font-name:                       'Roboto Italic';
+
+
+
+
+// Font to be used in the application
+
+$font-family-sans-serif:                    'Roboto Regular';
+$base-font:                                 'Roboto Regular';
+
+
+//=== Shared nav styles
+$nav-link-padding:                          3px  15px  !default;
+
+$border-radius-base:                        0px; // Set the border radius to 0
+
+
+
+//=== Colors
+$nav-tabs-active-link-hover-bg:             #ffffff;
+$nav-tabs-inactive-font-color:              #b5b5b5;
+$nav-tabs-active-font-color:                #3c3c3c;
+$nav-tabs-active-link-hover-color:          $nav-tabs-active-font-color;
+$nav-tabs-active-link-hover-border-color:   $nav-tabs-inactive-font-color; // remove the hover border color
+$title-color:                               #5b5b5b;
+$bg-color:                                  #f3f3f3;
+$login-input-font-color:                    $nav-tabs-active-link-hover-bg;
+$login-input-group-border-color:            $nav-tabs-active-link-hover-bg;
+$login-button-font-color:                   #282828;
+$login-button-color:                        $nav-tabs-active-link-hover-bg;
+$copywrite-font-color:                      #fefefe;
+$title-bg-color:                            #dddddd;
+$title-border-color:                        #bdbdbd;
+$listing-row-color-even:                    $nav-tabs-active-link-hover-bg;
+$listing-row-color-odd:                     #f1f1f1;
+$listing-border-color:                      #e3e3e3;
+$listing-font-color:                        #515151;
+$listing-row-color-active:                  #3e3e3e;
+$listing-font-color-active:                 $nav-tabs-active-link-hover-bg;
+$hamburger-color:                           #4b4b4b;
+$sidebar-color:                             $login-button-font-color;
+$sidebar-levelonebgcolor:                   $login-button-font-color;
+$sidebar-leveltwohovercolor:                $bg-color;
+$navbar-color:                              #9b9b9b;
+$drawer-levelonebgcolor:                    $login-button-font-color;
+$drawer-fontcolor:                          $nav-tabs-inactive-font-color;
+$drawer-leveltwohovercolor:                 $bg-color;
+$drawer-leveltwohoverfontcolor:             $nav-tabs-active-font-color;
+$drawer-bgcolor:                            $nav-tabs-active-font-color;
+$drawer-leveltwoActivefontcolor:            $drawer-leveltwohoverfontcolor;
+$drawer-leveltwo-Active-bg-color:           $drawer-leveltwohovercolor;                                

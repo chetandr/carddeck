@@ -1,0 +1,19 @@
+@mixin module-header($font-size, $border-top,$border-right,$border-bottom,$border-left) {
+    font-size: $font-size;
+    
+    @if $border-top != "" {
+        border-top: $border-top;
+    }
+    
+    @if $border-right != "" {
+        border-right: $border-right;
+    }
+    
+    @if $border-bottom != "" {
+        border-bottom: $border-bottom;
+    }
+    
+    @if $border-left != "" {
+        border-left: $border-left;
+    }
+}

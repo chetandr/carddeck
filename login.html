@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <title>Wynyard Risk Administration</title>
+        <link rel='shortcut icon' href='build/images/favicon.ico' type='image/x-icon'/>
+        <link rel="stylesheet" href="build/css/style.css">
+    </head>
+    <body class="wrm login">
+        <!-- Root Container for tha page -->
+         <div class="container-fluid">
+             
+            
+            <div class="row">
+                
+                <div class="login-container col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3 ">
+                   
+                    <!-- Wynyard Logo -->
+                   <div class="center-block">
+                       <span class="icon loginpage-logo center-block"></span>
+                    </div>
+                    
+                    <!-- Risk Management -->
+                    <div class="wrm-heading">
+                        RISK MANAGEMENT
+                    </div>
+                    
+                    <!-- Panel for the Form -->
+                    <div class="panel panel-default">
+                        
+                        <!-- Panel Body -->
+                        <div class="panel-body">
+                            
+                           <!-- Loading Icon -->    
+                           <div class="loading-icon-wrapper">
+                               <i class="loader-icon faa-spin animated"></i>
+                           </div>
+                            
+                            <!-- Form for the Elements -->
+                            <form role="form" onsubmit="return login()">                                
+                                <div class="row">
+                                    <div class="col-sm-10 col-md-10  col-md-offset-1 col-sm-offset-1 ">
+                                        
+                                        
+                                        <div class="form-group">
+                                            
+                                            <!-- Element Group for User Name -->
+                                            <div class="input-group input-border">
+                                                
+                                                <!-- Left Icon for User Name -->
+                                                <span class="input-group-addon">
+                                                    <div class="icon username-icon" title="User Icon"></div>
+                                                </span> 
+                                                
+                                                <!-- Input Element for User Name-->
+                                                <input title="Username" id="user-name" class="form-control no-border-radius" placeholder="Username" name="loginname" type="text"  required="" aria-required="true" autofocus >
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        
+                                        <div class="form-group">
+                                            
+                                             <!-- Element Group for Password -->
+                                            <div class="input-group input-border">
+                                                
+                                                <!-- Left Icon for Password -->
+                                                <span class="input-group-addon">
+                                                    <div class="icon password-icon" title="Password Icon"></div>
+                                                </span>
+                                                
+                                                <!-- Input Element for Password-->
+                                                <input title="Password" id="user-password" class="form-control no-border-radius" placeholder="Password" name="password" type="password" value="" required="" aria-required="true">
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        
+                                        <div class="form-group">
+                                            <!--Login Button-->
+                                            <button class="logon-btn btn btn-lg btn-default btn-block" value="">LOGIN</button>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                
+                            </form>
+                            
+                        </div>
+                        
+                        <!-- copywrite information-->
+                        <div class="panel-footer text-center footer-text">
+                            &copy; Copyright 2016. Wynyard Group Limited
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- Modal window for showing Error Message-->
+                    <div id="login-modal" class="modal fade" aria-describedby="error-message-header" style="display:none">
+                        <div class="modal-dialog login-modal-dialog" role="dialog" >
+                            <div class="modal-content col-md-12">
+                                <div class="modal-header row login-dialog-header">
+                                    <button type="button" class="close js-close-btn" data-dismiss="modal" aria-label="Close"><div class="close-icon" title="Close Icon"></div></button>
+                                    <span id="modal-label" class="modal-header-label">Logon</span>
+                                </div>
+                                <div class="modal-body">
+                                    <div>
+                                        <div class="col-md-1 error-icon" title="Error Icon"></div>
+                                        <div class="col-md-10">
+                                            <div id="error-message-header" class="error-message-header">Your login attempt was not sucessful. Please try again.</div>
+                                        </div>
+                                    </div>
+                                    <pre class="col-md-11 col-md-offset-1 error-message-preview">
+                                        <div id="error-message" class="js-error-message"></div>
+                                    </pre>
+                                </div>
+                                <div class="modal-footer col-md-12 no-border">
+                                    <button class="btn btn-default js-ok-btn" data-dismiss="modal" aria-label="Press OK button to close the dialog box">OK</button>
+                                </div>
+                            </div> <!--modal-content-->
+                        </div> <!--modal-dialog-->
+                    </div> <!--modal-->
+                    
+                    
+                </div><!--login-container-->
+            </div>
+        </div>
+        <!-- //////////Root Container for tha page -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="login.js"></script>
+    </body>
+</html>

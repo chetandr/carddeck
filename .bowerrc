@@ -1,0 +1,8 @@
+{
+
+    "directory": "bower_components",
+    "analytics": false,
+    "strict-ssl": false,
+    "proxy":"http://chetan_rane:p00n4mE$K$6@goaproxy.persistent.co.in:8080",
+    "https-proxy":"http://chetan_rane:p00n4mE$K$6@goaproxy.persistent.co.in:8080"
+}

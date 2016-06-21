@@ -1,0 +1,13 @@
+/**
+ * Mixin to convert the pixels ino em.
+ */
+$browser-height: 786; // Default
+$browser-width: 1024; // Default
+
+@function percent_height($pixels, $context-height: $browser-height) {
+  @return percentage($pixels/$context-height);
+}
+
+@function percent_width($pixels, $context-width: $browser-width) {
+  @return percentage($pixels/$context-width);
+}

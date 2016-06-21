@@ -1,0 +1,7 @@
+@mixin font($base-font, $font-folder,$font-file-name) {
+  @font-face {
+         font-family: $base-font ;
+         src : url('../fonts/#{$font-folder}/#{$font-file-name}.eot') format('embedded-opentype'),url('../fonts/#{$font-folder}/#{$font-file-name}.ttf') format('truetype'),url('../fonts/#{$font-folder}/#{$font-file-name}.woff') format('woff'),url('../fonts/#{$font-folder}/#{$font-file-name}.svg') format('svg'),
+    }
+} 
+
